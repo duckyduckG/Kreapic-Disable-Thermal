@@ -19,8 +19,6 @@ done
 sleep 5
 
 # Thermal stop method
-stop logd
-sleep 1
 stop android.thermal-hal
 sleep 1
 stop vendor.thermal-engine
